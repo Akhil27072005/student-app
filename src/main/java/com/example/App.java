@@ -16,8 +16,8 @@ public class App {
 
     public static void main(String[] args) {
         App app = new App();
-        app.addStudent("Harinee");
-        app.addStudent("Arun");
+        app.addStudent("Student A");
+        app.addStudent("Student B");
         System.out.println("Student App Running");
         System.out.println("Students: " + app.viewStudents());
     }
