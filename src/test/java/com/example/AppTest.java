@@ -15,8 +15,8 @@ public class AppTest {
     @Test
     void testViewStudents() {
         App app = new App();
-        app.addStudent("Harinee");
-        app.addStudent("Arun");
-        assertEquals("Arun", app.viewStudents().get(1));
+        app.addStudent("Student A");
+        app.addStudent("Student B");
+        assertEquals("Student B", app.viewStudents().get(1));
     }
 }
